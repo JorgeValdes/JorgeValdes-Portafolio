@@ -17,6 +17,7 @@ def index() -> rx.Component:
         rx.theme_panel(),
         rx.vstack(
             rx.heading("Welcome to Reflex!", size="9"),
+            rx.heading("Como estan todos...", size="9"),
             rx.text("Get started by editing ", rx.code(filename)),
             rx.button(
                 "Check out our docs!",
