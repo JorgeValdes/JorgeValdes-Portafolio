@@ -9,7 +9,7 @@ def home():
             rx.heading(
                 "JORGE VALDES",
                 font_size="min(9vw, 80px)",
-                color="black",
+                color="white",
                 letterSpacing= "min(2.5vw, 40px)",
                 fontWeight="500",
             ),
@@ -19,7 +19,7 @@ def home():
             rx.text(
                 "Personal Portfolio",
                 font_size="min(5.5vw, 40px)",
-                color="black",
+                color="white",
                 letterSpacing= "min(2vw, 18px)",
                 fontWeight="400",
             ),
@@ -34,7 +34,7 @@ def home():
             paddingTop="50vh",
             #background="linear-gradient(45deg, var(--tomato-9), var(--plum-9))",
         ),
-        background_color="var(--plum-3)",
+        background="center/cover url('/city.jpg')",
         width="100%",
         height="100vh",
         #rx.logo()
