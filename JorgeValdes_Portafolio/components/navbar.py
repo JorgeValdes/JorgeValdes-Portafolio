@@ -8,19 +8,20 @@ def navbar():
         ),
         rx.hstack(
             rx.link(
-                "Home",
+                "Inicio",
                 href="/",
                 color="black",
                 marginRight="1em",
             ),
             rx.link(
-                "Resume",
+                "Resumen",
+                #href="https://www.google.com/search?q=google&rlz=1C1VDKB_esCL1084CL1084&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYQTIGCAQQRRg8MgYIBRBFGEEyBggGEEUYPDIGCAcQRRhB0gEHNjU3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
                 href="/resume",
                 color="black",
                 marginRight="1em",
             ),
             rx.link(
-                "Projects",
+                "Proyectos",
                 href="/projects",
                 color="black",
                 marginRight="1em",

@@ -6,11 +6,12 @@ import reflex as rx
 
 #importacion de las paginas
 from .pages.home import home
-from .pages.footer import footer
-from .components.navbar import navbar
+from .pages.resume import resume
+#from .pages.footer import footer
+#from .components.navbar import navbar
 
-docs_url = "https://reflex.dev/docs/getting-started/introduction/"
-filename = f"{config.app_name}/{config.app_name}.py"
+#docs_url = "https://reflex.dev/docs/getting-started/introduction/"
+#filename = f"{config.app_name}/{config.app_name}.py"
 
 
 class State(rx.State):
@@ -62,4 +63,4 @@ class State(rx.State):
 app = rx.App()
 #app.add_page(index, route="/")
 app.add_page(home, route="/")
-#app.add_page(footer, route="/")
+app.add_page(resume, route="/resume")

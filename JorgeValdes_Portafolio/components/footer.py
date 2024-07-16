@@ -5,7 +5,7 @@ def footer():
         rx.hstack(
             rx.link(
                 rx.avatar(src="/github.png", radius="full"),
-                href="https://github.com/luccavp12",
+                href="https://github.com/JorgeValdes",
                 target="_blank",
             ),
             rx.link(
@@ -20,7 +20,7 @@ def footer():
             ),
             rx.link(
                 rx.avatar(src="/instagram.png", radius="full"),
-                href="https://www.instagram.com/luccavp12/",
+                href="https://www.instagram.com/jorge_ignacio_valdes/",
                 target="_blank",
             ),
             
@@ -36,4 +36,5 @@ def footer():
         width="100%",
         justify="center",
         align="center",
+        #bg="orange",
     )
