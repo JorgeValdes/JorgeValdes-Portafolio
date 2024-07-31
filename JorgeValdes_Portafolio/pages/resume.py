@@ -9,7 +9,7 @@ def resume():
     """The resume page."""
     return rx.flex(
         rx.chakra.image(
-            #src="/resume.jpg",
+            src="/resume.jpg",
             width="min(100vw, 800px)",
             height="100%",
         ),
